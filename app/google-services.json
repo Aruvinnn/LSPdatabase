@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1014903263859",
+    "firebase_url": "https://lspdatabase-8f891-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lspdatabase-8f891",
+    "storage_bucket": "lspdatabase-8f891.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014903263859:android:9872b06485b53e9f5c9006",
+        "android_client_info": {
+          "package_name": "com.example.LSPdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXe6DZB2JUClvGguZo2E_-ABIYSyGHq44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014903263859:android:ab3fcc53783a4b745c9006",
+        "android_client_info": {
+          "package_name": "com.example.lspdatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXe6DZB2JUClvGguZo2E_-ABIYSyGHq44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
