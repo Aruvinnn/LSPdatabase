@@ -11,11 +11,12 @@ composeBom = "2024.09.02"
 androidx-recyclerview = "1.2.1"
 lifecycle-viewmodel-ktx = "2.4.0"
 firebase-bom = "32.0.0"
-firebase-database-ktx = "com.google.firebase:firebase-database-ktx"
+firebase-database-ktx = "21.0.0"
 firebase-auth-ktx = "com.google.firebase:firebase-auth-ktx"
 gms-google-services = "4.3.10"
 googleGmsGoogleServices = "4.4.2"
 firebaseDatabase = "21.0.0"
+firebaseFirestore = "25.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +40,7 @@ firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx", 
 firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx", version = "" }
 gms-google-services = { module = "com.google.gms:google-services", version.ref = "gms-google-services" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
