@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <!-- Title (ADMIN DASHBOARD) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMIN DASHBOARD"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Manage Products (with Manage Stock Levels) -->
+    <LinearLayout
+        android:id="@+id/manageProductsSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <!-- Manage Products Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANAGE PRODUCTS"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Manage Stock Levels Subtitle -->
+        <TextView
+            android:id="@+id/manageStockLevels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage Stock Levels"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Manage Order Transactions (with Customer Orders) -->
+    <LinearLayout
+        android:id="@+id/manageOrdersSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp">
+
+        <!-- Manage Orders Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANAGE ORDER TRANSACTIONS"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <!-- Customer Orders Subtitle -->
+        <TextView
+            android:id="@+id/customerOrders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Orders"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+</LinearLayout>
